@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Wikipedia viewer</title>
+<meta name="author" content="Panagiotis Skarlas">
+<meta name="description" content="Minimalist Wikipedia viewer">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+<div class="container text-center">
+	<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank"><img src="https://n6-img-fp.akamaized.net/free-icon/wikipedia-logo_318-50187.jpg?size=338&ext=jpg" title="wikipedia image"></a>
+<form>
+	<div class="form-group text-center">
+		<input type="text" id="searchbox" class="form-control col-form-label text-center white blueglow">
+    	<a class="button btn ion-search blueglow" id="searchbutton"></a>
+		<a href="https://en.wikipedia.org/wiki/Special:Random" class="button btn ion-shuffle blueglow" target="_blank"></a>
+	</div>
+	<ul id="results" class="text-left">
+	</ul>
+</form>
+</div>
+<div id="footer">
+	<p class="inline">Made by Panagiotis Skarlas</p>
+	<a href="https://twitter.com/qktweets" target="_blank"><img id="twitterimg" src="https://dl.dropboxusercontent.com/s/cwnb0jixx1vsxi7/Twitter-256.png"></a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

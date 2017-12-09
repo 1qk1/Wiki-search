@@ -1,0 +1,105 @@
+body {
+  margin-bottom: 60px;
+}
+#searchbox {
+  max-width: 20%;
+  border-radius: 20px;
+  transition: 0.5s;
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#searchbox:focus {
+  max-width: 25%;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+}
+.inline {
+  display: inline-block !important;
+}
+.white {
+  background-color: white;
+  border: 1px solid black;
+}
+.blueglow {
+  transition: 0.5s;
+}
+.blueglow:hover {
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+  transition: 0.5s;
+}
+img {
+  width: 6em;
+  margin: 1em;
+}
+a:visited {
+  color: black;
+  box-shadow: none;
+}
+a:hover {
+  cursor: pointer;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li {
+  padding: 1.25em 1.5em;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 0.25em;
+  transition: 0.2s;
+  list-style: none;
+}
+li:hover {
+  margin-left: -2px;
+  border-left: 5px solid;
+  border-color: rgba(81, 203, 238, 1);
+  transition: 0.2s;
+}
+li a {
+  margin: 0px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+li a:hover {
+  text-decoration: none;
+  color: #43aecd;
+  transition: 0.2s;
+}
+#footer {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #202020;
+}
+#twitterimg {
+  margin: 0.01em;
+  width: 24px;
+  height: auto;
+}
+.button{
+  border: 1px solid black;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 720px){
+  #searchbox{
+     max-width: 60%;
+  }
+  #searchbox:focus{
+    max-width: 70%;
+  }
+}
