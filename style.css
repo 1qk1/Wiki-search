@@ -31,8 +31,8 @@ body {
   transition: 0.5s;
 }
 img {
-  width: 6em;
-  margin: 1em;
+  height: 3em;
+  margin: 3em;
 }
 a:visited {
   color: black;
